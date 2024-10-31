@@ -10,8 +10,8 @@ public class Vetores2 {
 
 		Scanner scanner = new Scanner(System.in);
 		int vetnum[] = new int[10];
-		int num, i = 0, soma = 0;
-		float media;
+		int num, i = 0;
+		float media, soma = 0;
 		String guardari = " ", guardarp = "";
 
 		for (i = 0; i < vetnum.length; i++) {
@@ -23,14 +23,15 @@ public class Vetores2 {
 			guardari += vetnum[i];
 		}
 
-		for (i = 0; i < vetnum.length; i += 2) {
-			guardarp += vetnum[i];
+		for (i = 0; i < vetnum.length; i++) {
+			if (vetnum[i] % 2 == 0) {
+				guardarp += vetnum[i];
+			}
 		}
-
 		for (i = 0; i < vetnum.length; i++) {
 			soma = (soma + vetnum[i]);
 		}
-		media = (soma / vetnum.length);
+		media = (soma / 10);
 
 		System.out.println("Elementos nos índices ímpares:" + guardari);
 		System.out.println("Elementos pares: " + guardarp);
