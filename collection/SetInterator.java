@@ -10,7 +10,7 @@ public class SetInterator {
 	public static void main(String[] args) {
 
 		// Escreva um programa Java para criar uma Collection Set de Objetos da Classe
-		// Wrapper Integer.
+		// Wrapper Integer.*
 		// O programa deverá solicitar ao usuário, que ele digite via teclado 10 valores
 		// inteiros não repetidos
 		// adicione-os individualmente na Collection Set. Em seguida, faça o que se
