@@ -16,7 +16,7 @@ public class While1 {
 		while (idade >= 0) {
 			System.out.println("-------Digite uma idade-------");
 			idade = scanner.nextInt();
-			if (idade < 21) {
+			if (idade < 21 && idade > 0) {
 				menor++;
 			} else if (idade > 50) {
 				maior++;
@@ -27,7 +27,7 @@ public class While1 {
 		// SOMA//
 
 		System.out.println("_______________________________________");
-		System.out.println(" Total de menores de 21 anos: " + menor);
+		System.out.println(" Total de menores de 21 anos: " + (menor));
 		System.out.println("|______________________________________|");
 		System.out.println(" Total de maiores de 50 anos: " + maior);
 		System.out.println("|______________________________________|");

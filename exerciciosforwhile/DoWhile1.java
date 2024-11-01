@@ -10,6 +10,7 @@ public class DoWhile1 {
 
 		Scanner scanner = new Scanner(System.in);
 		int n, resul = 0;
+
 		do {
 			System.out.println("Digite um número: ");
 			n = scanner.nextInt();
