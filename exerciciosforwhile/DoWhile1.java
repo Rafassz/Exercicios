@@ -6,7 +6,7 @@ public class DoWhile1 {
 
 	public static void main(String[] args) {
 
-		// DECLARAÇÃO DE VARIAVEIS//
+		// DECLARAÇÃO DE VARIAVEIS*//
 
 		Scanner scanner = new Scanner(System.in);
 		int n, resul = 0;

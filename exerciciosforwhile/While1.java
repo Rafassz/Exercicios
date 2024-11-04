@@ -6,7 +6,7 @@ public class While1 {
 
 	public static void main(String[] args) {
 
-		// DECLARAÇÃO DE VARIAVEIS//
+		// DECLARAÇÃO DE VARIAVEIS*//
 
 		Scanner scanner = new Scanner(System.in);
 		int idade = 0, menor = 0, maior = 0;
@@ -20,7 +20,6 @@ public class While1 {
 				menor++;
 			} else if (idade > 50) {
 				maior++;
-
 			}
 		}
 

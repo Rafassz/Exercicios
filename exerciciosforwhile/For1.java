@@ -8,6 +8,8 @@ public class For1 {
 
 		int x, i, par = 0, impar = 0;
 		Scanner leia = new Scanner(System.in);
+		
+		//ENTRADA DE DADOS
 
 		for (i = 1; i <= 10; i++) {
 			System.out.println("Digite o " + i + "ª Número: ");

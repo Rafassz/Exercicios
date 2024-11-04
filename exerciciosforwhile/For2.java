@@ -11,7 +11,7 @@ public class For2 {
 		int num1, num2, i;
 		Scanner scanner = new Scanner(System.in);
 
-		// ENTRADA DE DADOS//
+		// ENTRADA DE DADOS*//
 
 		System.out.println("Digite o primeiro número do intervalo: ");
 		num1 = scanner.nextInt();
