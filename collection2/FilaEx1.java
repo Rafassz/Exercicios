@@ -53,15 +53,15 @@ public class FilaEx1 {
 				break;
 
 			case 3:
-				if(fila.isEmpty()) {
+				if (fila.isEmpty()) {
 					System.out.println("Fila vazia");
-				}else {
-				System.out.println(fila.remove() + " Comparecer ao caixa!");
+				} else {
+					System.out.println(fila.remove() + " Comparecer ao caixa!");
 				}
 				break;
 			}
 		} while (opcao != 0);
-		
+
 		System.out.println("O Programa foi Finalizado.");
 	}
 }
