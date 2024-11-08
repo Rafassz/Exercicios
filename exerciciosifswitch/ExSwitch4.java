@@ -2,6 +2,8 @@ package exerciciosifswitch;
 
 import java.util.Scanner;
 
+import conta.util.Cores;
+
 public class ExSwitch4 {
 
 	public static void main(String[] args) {
@@ -10,7 +12,7 @@ public class ExSwitch4 {
 		float saldo;
 		Scanner leia = new Scanner(System.in);
 
-		System.out.println("########## TABELA DE OPERAÇÕES ############");
+		System.out.println(Cores.ANSI_YELLOW_BACKGROUND +"########## TABELA DE OPERAÇÕES ############");
 		System.out.println("   Código da Operação  |      Operação     ");
 		System.out.println("           1           |      Saldo        ");
 		System.out.println("           2           |      Saque        ");
